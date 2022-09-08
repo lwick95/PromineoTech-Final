@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: foraging
+    username: foraging
+    url: jdbc:mysql://localhost:3306/foraging
+  
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
